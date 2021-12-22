@@ -23,10 +23,8 @@ async function scrapeProduct(url){
     const [el4] = await page.$x('//html/body/div[5]/div/form/div[2]/div[1]/main/div/div[3]/div[3]/form/div[2]/div/div');
     const txt4 = await el4.getProperty('textContent');
     let result = await txt4.jsonValue();
-    const size = [];
-    // console.log(result.match(/XS(\s-\s\w+\s\w+)?|S(?1)?|M(?1)?|L(?1)?|XL(?1)?/gm))
-    
-    result.match(/(XS|S|M|L|XL)(\s-\s\w+\s\w+)?/gm)
+    const size = [];    
+    result.match(/(XS|S|M|L|\d?XL)(\s-\s\w+\s\w+)?/gm)
     .forEach(element => {
         const [sizes, availability] = element.split(' - ')
         const obj = {};
