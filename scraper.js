@@ -26,7 +26,7 @@ async function scrapeProduct(url){
     const size = [];
     // console.log(result.match(/XS(\s-\s\w+\s\w+)?|S(?1)?|M(?1)?|L(?1)?|XL(?1)?/gm))
     
-    result.match(/XS(\s-\s\w+\s\w+)?|S(\s-\s\w+\s\w+)?|M(\s-\s\w+\s\w+)?|L(\s-\s\w+\s\w+)?|XL(\s-\s\w+\s\w+)?/gm)
+    result.match(/(XS|S|M|L|XL)(\s-\s\w+\s\w+)?/gm)
     .forEach(element => {
         const [sizes, availability] = element.split(' - ')
         const obj = {};
