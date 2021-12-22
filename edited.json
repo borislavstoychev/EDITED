@@ -1,0 +1,22 @@
+{
+  "name": "Midi satin skirt",
+  "color": "Black",
+  "price": 29.99,
+  "size": [
+    {
+      "XS": "Not available"
+    },
+    {
+      "S": "Available"
+    },
+    {
+      "M": "Available"
+    },
+    {
+      "L": "Not available"
+    },
+    {
+      "XL": "Available"
+    }
+  ]
+}
