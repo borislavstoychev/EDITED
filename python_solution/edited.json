@@ -1,0 +1,62 @@
+[
+    {
+        "name": "Midi satin skirt",
+        "color": "Beige",
+        "price": {
+            "price": 29.99,
+            "currency": "GBP",
+            "crossedOutPrices": [
+                "£39.99"
+            ],
+            "salePrice": "£29.99",
+            "discount": "(-25%)"
+        },
+        "size": [
+            {
+                "XS": true
+            },
+            {
+                "S": true
+            },
+            {
+                "M": true
+            },
+            {
+                "L": true
+            },
+            {
+                "XL": true
+            }
+        ]
+    },
+    {
+        "name": "Midi satin skirt",
+        "color": "Black",
+        "price": {
+            "price": 29.99,
+            "currency": "GBP",
+            "crossedOutPrices": [
+                "£39.99"
+            ],
+            "salePrice": "£29.99",
+            "discount": "(-25%)"
+        },
+        "size": [
+            {
+                "XS": false
+            },
+            {
+                "S": false
+            },
+            {
+                "M": true
+            },
+            {
+                "L": false
+            },
+            {
+                "XL": false
+            }
+        ]
+    }
+]
